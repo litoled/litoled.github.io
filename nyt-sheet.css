@@ -1,0 +1,569 @@
+body{
+  font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+    color: #333;
+}
+
+/*La ligne n'est pas à la bonne hauteur par rapport au bord de la page*/
+header{
+  margin-left: 30px;
+  margin-top:0;
+  border-bottom: 1px solid #ccc;
+    border-color: #e2e2e2;
+  position: relative;
+    min-height: 47px
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000000090;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+header ul{
+  list-style-type: none;
+  margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  header li{
+    display: inline-block;
+  }
+
+  /*TO VERIFY*/
+    .navigation_button_group{
+      margin-right: 7px;
+        margin-left: 9px;
+        float: left;
+
+    }
+
+    .button{
+          font-size: 0.6875rem;
+          border-radius: 3px;
+          padding: 7px 9px;
+          border: 1px solid #e2e2e2;
+          color: #333;
+          text-transform: uppercase;
+          font-size: 11px;
+        line-height: 13px;
+          line-height: 0.8125rem;
+          font-weight: 500;
+          font-style: normal;
+          margin: 0;
+          text-transform: uppercase;
+
+      }
+
+    .button_text{
+      font-weight: 700;
+      margin-left: 7px;
+      display: inline-block;
+        vertical-align: middle;
+        font-family: "nyt-franklin",arial,helvetica,sans-serif;
+        text-transform: uppercase;
+        color: #333;
+
+    }
+
+    .navigation_button_group i img{
+      display: inline-block;
+        line-height: 0;
+        vertical-align: middle;
+        font-style: normal;
+    }
+
+    #sections_button{
+      background-color: #fff;
+      box-shadow: 0 3px 2px 0 rgba(0,0,0,0.06), inset -1px -1px 1px 0 rgba(0,0,0,0.02);
+        border-bottom-color: #cecece;
+        margin-right: 6px;
+        height: 30px;
+
+        align-items: flex-start;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 2px 6px 3px
+        border-width: 2px;
+        border-style: outset;
+        border-color: buttonface;
+
+        border: 1px solid #e2e2e2;
+    }
+      .button_text #sections_button{
+        position: static;
+          width: auto;
+          height: auto;
+          margin: 0;
+          clip: auto;
+          overflow: visible;
+          margin-right: 7px;
+          margin-left: 7px;
+
+      }
+      #sections_button i{
+        background-repeat: no-repeat;
+          width: 16px;
+          height: 16px;
+          margin-top: -1px;
+
+      }
+      #home_button{
+        background-color: transparent;
+          border: none;
+      }
+
+      #home_button img{
+          width: 14px;
+          height: 14px;
+          padding-top: 16px;
+          margin-top:5px;
+      }
+
+      #search_button i{
+          width: 16px;
+          height: 16px;
+          margin-top: -1px;
+
+      }
+
+      #search_button {
+        background-color: transparent;
+          border: none;
+      }
+
+    .branding{
+      float:left;
+      text-align: center;
+      margin:auto;
+      padding-left:300px;
+    }
+
+      #nyt-logo-print{
+
+      }
+
+    .right_top_buttons{
+      float:right;
+      display: block;
+      font-weight: 700;
+      font-family: "nyt-franklin",arial,helvetica,sans-serif;
+        text-transform: uppercase;
+        color: #fff;
+        padding-top: 15px;
+
+    }
+
+
+      #subscription_button{
+        background-color: #6288A5;
+        border-color: #4d7b9f;
+          color: #fff;
+          height: 30px;
+
+          /*background-color: #6288A5;
+          border-color: #4d7b9f;
+          font-weight: 700;
+          line-height: 14px;
+          margin: 1px 0 0 0;
+          padding-right: 11px;*/
+      }
+
+      #login-button{
+        background-color: #6288A5;
+        border-color: #4d7b9f;
+          color: #fff;
+          height: 30px;
+
+      }
+
+      #user_setting{
+        border: 1px solid transparent;
+          width: 30px;
+          height: 30px;
+          padding: 0;
+          margin-right: 30px;
+          background-color: transparent;
+
+      }
+
+      #user_setting i{
+        font-size: medium;
+      }
+
+
+/*JE NE SUIS PAS CERTAINE QU'IL S'AGISSE DU BON CSS: il faudrait peut être englober tous les éléments dans une nav bar!*/;
+    #top_navigation{
+      width: 1260px;
+        z-index: 1000000030;
+        top: -100px;
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+
+
+body {
+  display: block;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+  margin-bottom: 35px ;
+  font-family: georgia;
+  background-color: white;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600
+  color: black;
+}
+
+#Surtitre {
+  border-top: 1px solid black;
+}
+
+#Surtitre h3 {
+  text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+    letter-spacing: 0.05em;
+}
+
+#Titre h1 {
+    font-size: 30px;
+    line-height: 26px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+}
+
+#Sous-titre {
+  text-transform: uppercase;
+  line-height: 43px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Sous-titre span .byline {
+    font-size: 11px;
+    line-height: 23px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: georgia,"times new roman",times,serif;
+    flex-direction: row-reverse;
+}
+
+.titraille {
+  display: block;
+  width: 1125px;
+  color: black;
+}
+
+.separator-horizontal {
+  color: rgb(135,135,135);
+  opacity: 0.3;
+}
+
+.byline {
+    font-size: 11px;
+    line-height: 23px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: georgia,"times new roman",times,serif;
+}
+
+.byline-author {
+  font-weight: 600;
+}
+
+.dateline {
+  font-size: 11px;
+    line-height: 23px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: georgia,"times new roman",times,serif;
+}
+
+.sharetools-menu {
+  font-size: 11px;
+    line-height: 25px;
+    box-sizing: content-box;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+  display:inline-block;
+  float: right;
+}
+
+.sharetools-list {
+
+}
+
+.facebook-sharetool {
+  display:inline-block;
+  margin-right:10px;
+  size: 23px;
+}
+
+.twitter-sharetool {
+  display:inline-block;
+  margin-right:10px;
+}
+
+.email-sharetool {
+  display:inline-block;
+  margin-right:10px;
+}
+
+.show-all-sharetool {
+  display:inline-block;
+  margin-right:;
+}
+
+.separator-vertical {
+  padding-left: 6px;
+  padding-right: 6px;
+  font-family: Calibri;
+  font-size: 12px
+  color: rgb(135,135,135);
+}
+
+
+/*.border-right {
+  border-right: 1px solid grey;
+
+}*/
+
+.save-sharetool {
+  display:inline-block;
+  margin-right:10px;
+}
+
+.button {
+  font-size: 15px;
+}
+
+.image-box {
+  width: 1125px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-itself {
+    width: 384px;
+}
+
+.caption-text {
+  width:615px;
+  line-height: 16px;
+  font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
+  display: flex;
+}
+
+.caption-itself {
+  font-size: 14px;
+  color: rgb(135,135,135);
+  opacity: 0.6;
+}
+
+.author-caption {
+  font-size: 11px;
+  color: rgb(135,135,135);
+  opacity: 0.5;
+}
+
+/* css Yue part CAMBRIDGE --> Order Reprints| Today's Paper| Subscribe */
+
+.story-body-1 {
+   font-family: georgia;
+   font-style: normal;
+   font-size: 1.0625rem;
+   line-height: 1.625rem;
+   font-weight: 400;
+   color: rgb(51, 51, 51);
+   text-decoration;
+   text-align: left;
+   width: 570px;
+   margin-left: 60px;
+   margin-right: 0;
+   max-width: none;
+   border:
+}
+
+/* the theory of inflation schema + legendes */
+
+.theory-of-inflation{
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  color: #666;
+}
+
+.story-body-3 {
+   font-family: georgia;
+   font-style: normal;
+   font-size: 1.0625rem;
+   line-height: 1.625rem;
+   font-weight: 400;
+   color: rgb(51, 51, 51);
+   text-decoration;
+   text-align: left;
+   width: 570px;
+   margin-left: 60px;
+   margin-right: 0;
+   max-width: none;
+   border:
+}
+
+/* The Bicep2 telescope */
+.image{
+  margin-left: 30px;
+}
+
+.caption{
+  font-size: 0.8125rem;
+  line-height: 1.0625rem;
+  font-weight: 300;
+  font-style: normal;
+  font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
+  max-width: 100%;
+  color: #666;
+}
+
+.story-body-4 {
+   font-family: georgia;
+   font-style: normal;
+   font-size: 1.0625rem;
+   line-height: 1.625rem;
+   font-weight: 400;
+   color: rgb(51, 51, 51);
+   text-decoration;
+   text-align: left;
+   width: 570px;
+   margin-left: 60px;
+   margin-right: 0;
+   max-width: none;
+   border:
+}
+
+.story-body-5 {
+   font-family: georgia;
+   font-style: normal;
+   font-size: 1.0625rem;
+   line-height: 1.625rem;
+   font-weight: 400;
+   color: rgb(51, 51, 51);
+   text-decoration;
+   text-align: left;
+   width: 570px;
+   margin-left: 60px;
+   margin-right: 0;
+   max-width: none;
+   border:
+}
+
+.story-meta{
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 300;
+  font-style: normal;
+  color: #999;
+  line-height: 0.9375rem;
+  margin-left: 60px;
+  margin-right: 0;
+}
+
+/* Div de gauche More in spaces & Cosmos */
+.more_space{
+  float: left;
+    width: 600px;
+    border-top: 1px solid grey;
+    margin: 5px;
+    margin-left: 60px;
+}
+
+.a_space_left{
+  font-size: 16px;
+  float:left;
+  font-weight:bold;
+}
+
+.a_space_right{
+  font-size: 10px;
+  float:right;
+}
+
+.more_space a{
+  color:black;
+}
+
+
+#conteneur
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 600px;
+}
+
+.element{
+  width: 180px;
+  text-align: center;
+}
+
+.element img{
+  width: 180px;
+  height:auto;
+}
+
+/* Div de droite Trending */
+
+.trending{
+  float:right;
+  border-top: 1px solid grey;
+    margin: 5px;
+    color:black;
+    margin-right: 60px;
+}
+
+.a_trending_center{
+  font-size: 16px;
+  font-weight:bold;
+  color:black;
+  text-decoration: none;
+}
+
+.trending img{
+  width: 40px;
+  height:40px;
+  margin-left: 5px;
+}
+
+.colonne2 {
+  word-wrap:break-word;
+  width: 400px;
+}
+
+.list-trend{
+  border-bottom: 1px solid #f3f3f3;
+  margin: 20px;
+  padding: 20px;
+}
+
+.a_trend_left{
+  font-size: 10px;
+}
+
+tr {
+  height: 50px;
+}
+
+/* manque toujours le footer de Moulagato ! */
