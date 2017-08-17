@@ -566,4 +566,193 @@ tr {
   height: 50px;
 }
 
-/* manque toujours le footer de Moulagato ! */
+/* ------- CSS Moulagato ------- */
+
+
+/* --- gros footer --- */
+
+#footer-fat { 
+	width: 1050px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+#footer-fat:before {
+	box-sizing: content-box;
+	content: '';
+	display: block;
+	border-top: 2px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	height: 1px;
+	margin: 15px 0;
+	margin-top: 0;
+	margin-bottom: 9px;
+}
+
+#footer-fat li {
+	margin-bottom: 5px;
+}
+
+#h2-foot a:link {
+	color: #6288a5;
+}
+
+.colonne {
+	width: 165px;
+	float: left;
+
+}
+
+.derniere-colonne {
+	margin-left: 20px;
+	border-left: 1px solid #ccc;
+	padding-left: 10px;
+	width: 180px;
+}
+
+.foot-menu {
+
+}
+
+.foot-menu a {
+	color: #000;
+	font-size: 13px;
+	line-height: 13px;
+	font-weight: 500;
+	font-style: normal;
+	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+}
+
+.home-digi-cross a {
+	color: #000;
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: 700;
+	font-style: normal;
+	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+	display: inline;
+}
+
+.foot-menu-titraille {
+	margin-bottom: 14px;
+	font-size: 13px;
+	line-height: 0.6875rem;
+	font-weight: 700;
+	font-style: normal;
+	font-family: "nyt-franklin", arial, helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+
+/* --- pitit footer --- */
+#footer-slim {
+	width: 1050px;
+	padding-top: 9px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 1px solid #e2e2e2;
+	clear: both;
+}
+
+#footer-slim nav ul li a {
+	color: #999;
+}
+
+#footer-slim nav ul li {
+	font-size: 11px;
+	font-size: 0.6875rem;
+	line-height: 15px;
+	line-height: 0.9375rem;
+	font-weight: 400;
+	font-style: normal;
+	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+	border-left: 1px solid #999;
+	padding-left: 7px;
+	padding-right: 7px;
+	float: left;
+	padding: 0 4px;
+	line-height: 10px;
+	height: 10px;
+	border-color: #e2e2e2;
+}
+
+#footer-slim nav ul li a {
+	color: #999;
+}
+
+#footer-slim nav ul li.noborder {
+	border: none;
+}
+nav.last-nav {
+	float: right;
+}
+
+.secondary-menu:last-child {
+	border-top: 1px solid #ccc;
+	padding-top: 7px;
+	padding-top: 11px;
+}
+
+.secondary-menu li {
+	font-size: 11px;
+	font-size: 0.6875rem;
+	line-height: 15px;
+	line-height: 0.9375rem;
+	font-weight: 500;
+	font-style: normal;
+	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+	margin-right: 10px;
+	margin-bottom: 3px;
+	padding-top: 0;
+}
+
+.secondary-menu a {
+	color: #000;
+}
+/* --- both footers --- */
+
+#footer-fat a:hover, #footer-slim a:hover {
+	text-decoration: underline;
+}
+
+/* --- reste (s'applique a tout) --- */
+
+body {
+	/* margin: 0; */
+	/* padding: 0; */
+	font-family: "nyt-cheltenham", georgia, "times new roman", times,serif;
+	color: #333;
+	background-color: #fff;
+}
+
+div, nav, .user-action, #h2-foot, #footer-slim, #footer-fat {
+	display: block;
+}
+
+a:visited {
+	color: #326891;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 0;
+}
+
+.user-action {
+	font-size: 11px;
+	font-size: 0.6875rem;
+	line-height: 11px;
+	line-height: 0.6875rem;
+	font-weight: 400;
+	font-style: normal;
+	font-family: "nyt-franklin", arial, helvetica, sans-serif;
+	float: right;
+	margin: 7px 0 0 0;
+}
