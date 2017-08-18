@@ -484,10 +484,11 @@ a {
 /* Div de gauche More in spaces & Cosmos */
 .more_space{
   float: left;
-    width: 600px;
-    border-top: 1px solid grey;
-    margin: 5px;
-    margin-left: 60px;
+  width: 600px;
+  border-top: 1px solid grey;
+  margin: 5px;
+  margin-top: 50px; 
+  height: 650px;
 }
 
 .a_space_left{
@@ -529,9 +530,11 @@ a {
 .trending{
   float:right;
   border-top: 1px solid grey;
-    margin: 5px;
-    color:black;
-    margin-right: 60px;
+  margin: 5px;
+  margin-top: 50px; 
+  color:black;
+  width: 430px;
+  height: 650px;
 }
 
 .a_trending_center{
